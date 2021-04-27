@@ -1,0 +1,12 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+    name: strimzi
+    namespace: default
+spec:
+    chart:
+        repository: https://strimzi.io/charts/
+        name: strimzi
+        version: 0.22.1
+      releaseName: strimzi
+    
