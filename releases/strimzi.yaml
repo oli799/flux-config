@@ -4,9 +4,8 @@ metadata:
     name: strimzi
     namespace: default
 spec:
+    releaseName: strimzi
     chart:
         repository: https://strimzi.io/charts/
         name: strimzi
         version: 0.22.1
-      releaseName: strimzi
-    
