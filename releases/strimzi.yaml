@@ -1,10 +1,11 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-    name: strimzi
+    name: strimzi-kafka-operator
     namespace: default
+    version: 0.1.0
 spec:
-    releaseName: strimzi
+    releaseName: strimzi-kafka-operator
     chart:
         repository: https://strimzi.io/charts/
-        name: strimzi
+        name: strimzi-kafka-operator
