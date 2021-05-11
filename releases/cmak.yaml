@@ -1,10 +1,11 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-    name: cmak
+    name: cmak-operator
     namespace: default
 spec:
     chart:
         repository: https://eshepelyuk.github.io/cmak-operator
-        name: cmak
+        name: cmak-operator
         version: 3.0.0.5
+    releaseName: cmak-operator
