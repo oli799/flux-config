@@ -7,5 +7,5 @@ spec:
     chart:
         repository: https://eshepelyuk.github.io/cmak-operator
         name: cmak-operator
-        version: 3.0.0.5
+        version: 0.4.0
     releaseName: cmak-operator
